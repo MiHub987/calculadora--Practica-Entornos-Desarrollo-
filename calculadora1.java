@@ -8,6 +8,8 @@ double resultado = 0;
 switch (operador) {
 case '+':
 resultado = num1 + num2;
+case '*':
+resultado = num1 * num2;
 break;
 default:
 System.out.println("Operador inválido");
