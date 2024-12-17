@@ -8,6 +8,8 @@ double resultado = 0;
 switch (operador) {
 case '+':
 resultado = num1 + num2;
+case '-':
+resultado = num1 * num2;
 case '*':
 resultado = num1 * num2;
 break;
@@ -17,4 +19,5 @@ return;
 }
 System.out.println("Resultado: " + resultado);
 }
+        
 }
